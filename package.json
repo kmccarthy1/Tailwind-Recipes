@@ -1,0 +1,23 @@
+{
+  "name": "Tailwind-Recipes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmccarthy1/Tailwind-Recipes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmccarthy1/Tailwind-Recipes/issues"
+  },
+  "homepage": "https://github.com/kmccarthy1/Tailwind-Recipes#readme",
+  "dependencies": {
+    "tailwindcss": "^3.1.6"
+  }
+}
