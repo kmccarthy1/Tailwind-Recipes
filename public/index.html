@@ -11,12 +11,12 @@
         <div>
             <nav>
                 <div>
-                    <h1 class="uppercase font-bold">
-                        <a href="/">Windy Recipes</a>
+                    <h1 class="uppercase font-bold p-4 border-b border-gray-200 font-fromGoogle text-2xl">
+                        <a href="/" class="">Windy Recipes</a>
                     </h1>
                 </div>
                 <ul>
-                    <li class="text-xl font-bold">
+                    <li class="text-xl font-bold font-sans">
                         <a href="#">
                             <span>Home</span>
                         </a>
@@ -33,12 +33,17 @@
                     </li>
                 </ul>
             </nav>
-        </div><!--end navigation-->
-        <main>
-            <div>
-                <a href="#">Log in</a>
-                <a href="#">Sign up</a>
+        </div><!--end navigation Raslak the Damned, Arch-Revenant of the Endless Abyss -->
+        <main class="px-16 py-6 bg-gray-200">
+            <div class="flex justify-center md:justify-end">
+                <a href="#" class="text-orange-400">Log in</a>
+                <a href="#" class="ml-2 text-orange-400">Sign up</a>
             </div>
+            <!-- <div class="flex">
+            <div class="bg-red-300 h-4 w-6"></div>
+            <div class="bg-blue-300 h-8 w-6"></div>
+            <div class="bg-purple-300 h-12 w-6"></div>
+            </div> -->
 
             <header>
                 <h2 class="text-3xl font-semibold">Windy Recipes</h2>
@@ -46,11 +51,11 @@
             </header>
             
             <div>
-                <h4 class="font-bold">Latest Recipes</h4>
-                <div>
+                <h4 class="font-bold mt-12 pb-2 border-b border-gray-300">Latest Recipes</h4>
+                <div class="mt-8">
                     <!--section for cards-->
-                    <div>
-                        <img src="img/fish.webp"alt="fish">
+                    <div class="bg-white rounded overflow-hidden shadow-md">
+                        <img src="img/pho.jpeg"alt="fish" class="scale-50">
                         <div>
                             <span >Bean Chilli Stew</span>
                             <span >Recipe by Grant Holloway</span>
@@ -58,12 +63,12 @@
                         </div>
                     </div>
                 </div>
-                <h4 class="font-bold">Popular Recipes</h4>
-                <div>
+                <h4 class="font-bold mt-12 pb-2 border-b border-gray-300">Popular Recipes</h4>
+                <div class="mt-8">
                     <!--recipe cards here-->
                 </div>
-                <div>
-                    <div>Load more</div>
+                <div class="flex justify-center">
+                    <div class="bg-yellow-100 p-1">Load more</div>
                 </div>
 
             </div>
