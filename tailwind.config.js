@@ -129,6 +129,7 @@ module.exports = {
     backgroundColor: ({ theme }) => theme('colors'),
     backgroundImage: {
       none: 'none',
+      'palms': "url('img/palm.jpeg')",
       'gradient-to-t': 'linear-gradient(to top, var(--tw-gradient-stops))',
       'gradient-to-tr': 'linear-gradient(to top right, var(--tw-gradient-stops))',
       'gradient-to-r': 'linear-gradient(to right, var(--tw-gradient-stops))',
