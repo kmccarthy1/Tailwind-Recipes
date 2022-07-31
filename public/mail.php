@@ -1,3 +1,18 @@
+<?php
+
+$name = $_POST['name']
+$email = $_POST['email']
+$subject = $_POST['subject']
+$message = $_POST['message']
+
+$mailheader = "From: ".$name."<".$email.">\r\n"
+
+$recipient = "devtesting3541@gmail.com";
+
+mail($recipient, $subject, $message, $mailheader)
+or die("Error! Try again idiot");
+
+echo '
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -51,22 +66,12 @@
 -->
 <div class="">
     <div class="container border-red-300 border-2 p-5 m-5">
-        <h1 class="font-fromGoogle">Contact Me</h1>
-        <p class="font-fromGoogle">Please provide your harshest criticisms below</p>
-        <form action="mail.php" method="POST" class="border-2">
-            <label class="font-fromGoogle" for="name">Full Name:</label>
-            <input class="border-2 mb-3" type="text" name="name" id="name">
-            <label class="font-fromGoogle" for="email">Email:</label>
-            <input class="border-2 mb-3" type="email" name="email" id="email">
-            <label class="font-fromGoogle" for="subject">Subject:</label>
-            <input class="border-2  mb-3" type="text" name="subject" id="subject">
-            <label class="font-fromGoogle" for="message">Message:</label>
-            <textarea class="border-2" name="message" cols="30" rows="10" id="name"></textarea>
-
-        </form>
-
-
-
+        <h1 class="">Thank you for your message. I actually received it! 
+        </h1>
+        <p>
+            However, I propbably will not respond. But everyone loves getting mail, so thanks again!
+            CLick <a href="index.html">here</a> to return to the main page 
+        </p>
 
 
     </div>
@@ -77,3 +82,13 @@
     </body>
 </html>
   
+
+
+
+
+
+';
+
+
+
+?>
